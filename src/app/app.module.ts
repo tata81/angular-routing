@@ -5,7 +5,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { AppRoutingModule, routingComponent } from './/app-routing.module';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+
 
 
 
@@ -15,7 +15,6 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     AppComponent,
     HeaderComponent,
     routingComponent,
-    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
