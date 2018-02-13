@@ -11,7 +11,7 @@ export class UserDetailsComponent implements OnInit {
   constructor(private aRoute: ActivatedRoute) { }
   public details;
   ngOnInit() {
-    const id = parseInt(this.aRoute.snapshot.paramMap.get('id'));
+    const id = parseInt(this.aRoute.snapshot.paramMap.get('id'), 36);
     this.details = id;
   }
 
