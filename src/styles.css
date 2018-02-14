@@ -117,7 +117,7 @@ nav a.active {
 }
 .items li.selected {
   background-color: #CFD8DC;
-  color: white;
+  color: #dc1313;
 }
 /* everywhere else */
 * { 

@@ -1,7 +1,7 @@
 <div>
   <ul class="items">
-    <li *ngFor="let detail of details" (click)="onSelectUser(detail)">
-      <span class="badge">{{ detail.index }}</span><span>{{ detail.name }}</span>
+    <li *ngFor="let detail of details" (click)="onSelectUser(detail)" [class.selected]="isSelected(detail)">
+      <span class="badge">{{ detail.age }}</span>{{ detail.name }}
     </li>
   </ul>
 </div>
